@@ -1,7 +1,8 @@
 
 services:
   essencialmedic:
-    image: wordpress:latest
+    image: essencialmedic-wordpress
+    build: .
     container_name: essencialmedic-wordpress
     restart: always
     ports:
